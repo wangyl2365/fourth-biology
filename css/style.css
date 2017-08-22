@@ -1,0 +1,28 @@
+﻿.zone-cont { width: 1000px; padding: 30px 0; }
+.side-menu { float: left; width: 260px; }
+.side-menu h2 { height: 40px; line-height: 40px; background: #e60012; padding-left: 20px; }
+.side-menu a { display: block; font-size: 14px; height: 40px; line-height: 40px; margin-bottom: 1px; padding-left: 20px; background: #e6e6e6; color: #333; text-decoration: none; }
+.side-menu a:hover,.side-menu a.cur { color: #e60012; }
+
+.side-right { margin-left: 290px; }
+.zone-title { padding: 20px 0; border-bottom: 2px solid #e6e6e6; }
+.article-list { padding: 15px 0; }
+.article-list a { display: block; color: #333; height: 24px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.article-list a:hover { color: #e60012; text-decoration: none; }
+
+.flip-card li { width: 36px; height: 36px; line-height: 36px; text-align: center; background: #f1f1f1; margin-right: 5px; }
+.flip-card li a { position: relative; display: block; width: 36px; height: 36px; color: #999; text-decoration: none; background: #f1f1f1; }
+.flip-card li a:hover,.flip-card li.cur a { background: #e60012; color: #fff; }
+.icon-arrow-lt,.icon-arrow-rt,.icon-ellipsis { top:50%; left: 50%; width: 8px; height: 14px; background-position: -72px -18px; margin: -7px 0 0 -4px; }
+.flip-card li a:hover .icon-arrow-lt { background-position: -72px -34px; }
+.icon-arrow-rt { background-position: -84px -18px; }
+.flip-card li a:hover .icon-arrow-rt { background-position: -84px -34px; }
+.icon-ellipsis { width: 8px; height: 2px; font-size: 0; overflow: hidden; background-position: -68px -7px; margin: -1px 0 0 -4px; }
+.flip-card li a:hover .icon-ellipsis { background-position: -78px -7px; }
+
+.article-text p { line-height: 24px; text-indent: 24px; padding-bottom: 10px; }
+
+.company-list,.company-list li { padding: 10px 0; }
+.company-info { margin-left: 200px; }
+.company-info p { margin-top: 15px; max-height: 72px; overflow: hidden; display: -webkit-box; display: -moz-box; display: box; -webkit-box-orient:vertical; -moz-box-orient:vertical; box-orient:vertical; -webkit-line-clamp:3; -moz-line-clamp:3; line-clamp:3; }
+.company-list li:hover .company-info a { color: #e60012; text-decoration: underline;}
